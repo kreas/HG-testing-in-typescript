@@ -2,5 +2,19 @@
   "name": "typescript",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {}
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "@babel/core": ">=7.0.0-beta.0 <8",
+    "@types/jest": "^27.0.0",
+    "@types/node": "^18.7.6",
+    "babel-jest": ">=27.0.0 <28",
+    "dotenv": "^16.0.1",
+    "jest": "^27.3.1",
+    "node-notifier": "^8.0.1 || ^9.0.0 || ^10.0.0",
+    "ts-jest": "^27.0.7",
+    "typescript": ">=3.8 <5.0"
+  }
 }
